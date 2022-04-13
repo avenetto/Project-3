@@ -1,0 +1,19 @@
+---
+title: "Data Report 3"
+author: "Angelina Venetto"
+date: "4/12/2022"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+library(tidytuesdayR)
+library(tidyverse)
+library(ggrepel)    
+library(ggtext)
+```
+
+# This is my data report for project 3, it is exmaining XXXX, the data is from: https://github.com/rfordatascience/tidytuesday/tree/master/data/2019/2019-12-24
+
+```{r}
+christmas_songs <- readr::read_csv("https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2019/2019-12-24/christmas_songs.csv")
+```
